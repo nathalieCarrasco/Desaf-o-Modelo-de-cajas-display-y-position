@@ -5,8 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafio 3</title>
+    <style media="screen" type="text/css">
+
+/*GENERAL REGLAS*/
+    body{
+            padding:0;
+            margin:0;
+        }
+
+        .container{
+            width:60%;
+            margin: 50px 300px;
+        }
+
+
+
+        .box{
+            border: 2px solid #030303;
+            height: 200px; 
+            width: 40%;
+            margin: 15px;
+            box-sizing: border-box;
+            float:left;
+        }
+
+/*ESPAÑA*/
+
+    #bespaña{
+    background-color: red;
+}
+    .espana-amarillo{
+        width:100%;
+        height: 100px;
+        background-color:yellow;
+        margin-top: 50px;
+        }
+
+/*EMIRATOS */
+    .emi-rojo{
+        width:25%;
+        height:100%;
+        background-color:red;
+        float:left;
+        }
+
+    .emi-verde{
+        width:100%;
+        height:33%;
+        background-color:green;
+        }
+
+    .emi-blanco{
+        width:100%;
+        height:33%;
+        background-color:white;
+        }
+
+    .emi-negro{
+        width:100%;
+        height:34%;
+        background-color:black;
+        }
+
+/*DINAMARCA*/
+
+        #bdinamarca{
+            background-color: red;
+        }
+
+
+        .din-blanco1{
+            width: 20px;
+            height: 197px;
+            background-color:white;
+            margin-left: 4.5rem;
+            position:absolute;
+            z-index:10;
+        }
+
+        .din-blanco2{
+            width: 362px;;
+            height: 20px;
+            background-color:white;
+            margin-top: 5.5rem;
+            position:absolute;
+            z-index:15;
+        }
+    
+        /*JAPON*/
+        .japn{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .nombre-paises{
+            float:left;
+            width:50%;           
+
+        }
+
+    </style>
+</style>
 </head>
 <body>
+    <section class="container">
+
+
+        <!--ESPAÑA-->
+            <div id="bespaña" class="box">
+                <div class="espana-amarillo"></div>
+            </div>
+
+        <!--DINAMARCA-->
+
+            <div id="bdinamarca" class="box">
+                <div class="din-blanco1"></div>
+                <div class="din-blanco2"></div>
+            </div>
+            <span class="nombre-paises">España</span>
+            <span class="nombre-paises">Dinamarca</span>
+            
+        <!--EMIRATOS-->
+            <div  id="bemiratos" class="box">
+                <div class="emi-rojo"></div>
+                <div class="emi-verde"></div>
+                <div class="emi-blanco"></div>
+                <div class="emi-negro"></div>
+            </div>
+            
+        <!--JAPON-->
+            <div id="bjapon" class="box">
+                <div class="japn"></div>
+            </div>   
     
+            <span class="nombre-paises">Emiratos arabes</span>
+            <span class="nombre-paises">Japon</span>
+    </section>
+
+            
 </body>
 </html>
